@@ -3,10 +3,22 @@ Using TF-IDF text vectorization and multiple classification models (Logistic Reg
 📰 News Preprocessing: Cleaning and preparing text data (removing stopwords, punctuation, URLs).
 
 🧮 TF-IDF Feature Extraction: Transforming raw text into numerical features.
+
 🤖 Multi-Model Training: Benchmarking different ML models for fake news detection.
+
 📊 Evaluation Metrics: Accuracy, F1-score, confusion matrix, ROC curve.
+
 💾 Model Saving: Pre-trained models and vectorizers ready for deployment.
+
 ⚡ Prediction Function: Quick fake/real prediction for any given news article.
+## Dataset
+
+This project uses the **Fake and Real News Dataset** from Kaggle:  
+[Fake and Real News Dataset](https://www.kaggle.com/datasets/clmentbisaillon/fake-and-real-news-dataset)
+
+- `Fake.csv` : Contains fake news articles.  
+- `True.csv` : Contains real news articles.  
+
 This repo can serve as both a learning resource for NLP beginners and a baseline system for advanced fake news detection research.
 ## Results
 
@@ -22,8 +34,5 @@ This repo can serve as both a learning resource for NLP beginners and a baseline
 
 > ⚠️ Note: Accuracy and F1 scores are very high, indicating the dataset might be “easy” or there may be slight data leakage. Use caution when interpreting real-world performance.
 
-### Confusion Matrix Example
 
-![Logistic Regression Confusion Matrix](results/LogisticRegression_confusion.png)
 
-> Similar confusion matrices can be generated for other models using the script.
